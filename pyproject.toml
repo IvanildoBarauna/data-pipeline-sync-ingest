@@ -11,18 +11,18 @@ packages = [{ include = "etl" }]
 python = "^3.10"
 pandas = "^2.2.3"
 tqdm = "^4.67.0"
-pyarrow = "^18.1.0"
+pyarrow = "^23.0.1"
 fastparquet = "^2024.11.0"
-api-to-dataframe = "^1.3.11"
+api-to-dataframe = "^2.2.2"
 numpy = "^2.1.3"
 poetry-dynamic-versioning = "^1.4.1"
 
 [tool.poetry.group.dev.dependencies]
 pandasql = "^0.7.3"
 ipykernel = "^6.29.5"
-nbconvert = "^7.16.4"
+nbconvert = "^7.17.1"
 coverage = "^7.6.8"
-pytest = "^8.3.3"
+pytest = "^9.0.3"
 poetry-dynamic-versioning = "^1.3.0"
 
 [build-system]
